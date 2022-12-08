@@ -1,0 +1,19 @@
+{
+  "name": "aureus",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Design System for a Horror RPG System",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "build": "turbo run build"
+  },
+  "devDependencies": {
+    "turbo": "^1.6.3"
+  },
+  "dependencies": {
+    "react-icons": "^4.7.1"
+  }
+}

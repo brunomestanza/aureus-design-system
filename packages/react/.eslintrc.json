@@ -1,0 +1,3 @@
+{
+  "extends": "@aureus/eslint-config"
+}

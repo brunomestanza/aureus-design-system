@@ -1,0 +1,4 @@
+{
+  "extends": "@aureus/ts-config/base.json",
+  "include": ["src"]
+}
