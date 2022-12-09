@@ -12,6 +12,7 @@ export const Button = styled('button', {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
+  gap: '$2',
   cursor: 'pointer',
   transition: 'all 0.5s',
 
@@ -49,9 +50,22 @@ export const Button = styled('button', {
           color: '$zinc800',
         },
       },
+
+      tertiary: {
+        color: '$white',
+        fontFamily: '$body',
+
+        '&:hover': {
+          cursor: 'pointer',
+          textDecoration: 'underline',
+        },
+      },
     },
 
     size: {
+      xs: {
+        padding: '0px',
+      },
       sm: {
         padding: '$2 $6',
         width: 'fit-content',

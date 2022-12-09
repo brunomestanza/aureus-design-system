@@ -1,4 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
+import { User } from 'phosphor-react'
 import { Button, ButtonProps } from '@aureus/react'
 
 export default {
@@ -12,13 +13,13 @@ export default {
   },
   argTypes: {
     variant: {
-      options: ['primary', 'secondary'],
+      options: ['primary', 'secondary', 'tertiary'],
       control: {
         type: 'inline-radio',
       },
     },
     size: {
-      options: ['sm', 'md', 'lg'],
+      options: ['xs', 'sm', 'md', 'lg'],
       control: {
         type: 'inline-radio',
       },
@@ -48,6 +49,34 @@ export const Secondary: StoryObj<ButtonProps> = {
     variant: 'secondary',
     children: 'Create New',
   },
+}
+
+export const Tertiary: StoryObj<ButtonProps> = {
+  args: {
+    variant: 'tertiary',
+    children: 'Check now',
+    size: 'xs'
+  },
+}
+
+export const WithIcon: StoryObj<ButtonProps> = {
+  args: {
+    variant: 'tertiary',
+    children: (
+      <>
+        <User weight='bold' size={16} />
+        Find User
+      </>
+    ),
+    size: 'xs'
+  },
+  argTypes: {
+    children: {
+      control: {
+        type: null
+      }
+    }
+  }
 }
 
 export const Disabled: StoryObj<ButtonProps> = {

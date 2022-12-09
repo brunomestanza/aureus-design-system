@@ -12,8 +12,5 @@
   },
   "devDependencies": {
     "turbo": "^1.6.3"
-  },
-  "dependencies": {
-    "react-icons": "^4.7.1"
   }
 }
