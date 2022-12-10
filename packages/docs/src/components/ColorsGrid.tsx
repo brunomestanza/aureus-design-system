@@ -1,4 +1,4 @@
-import { colors, fonts } from '@aureus/tokens'
+import { colors, fonts } from '@ordo-aureus/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

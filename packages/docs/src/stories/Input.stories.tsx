@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Input, InputProps } from '@aureus/react'
+import { Input, InputProps } from '@ordo-aureus/react'
 
 export default {
   title: 'Form/Input',

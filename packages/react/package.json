@@ -1,6 +1,6 @@
 {
-  "name": "@aureus/react",
-  "version": "1.0.0",
+  "name": "@ordo-aureus/react",
+  "version": "2.0.0",
   "description": "Ready to use components for React JS apps.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -14,9 +14,9 @@
   "author": "Bruno Mestanza",
   "license": "MIT",
   "devDependencies": {
-    "@aureus/eslint-config": "*",
-    "@aureus/tokens": "*",
-    "@aureus/ts-config": "*",
+    "@ordo-aureus/eslint-config": "*",
+    "@ordo-aureus/tokens": "*",
+    "@ordo-aureus/ts-config": "*",
     "@types/react": "^18.0.26",
     "@types/react-dom": "^18.0.9",
     "react": "^18.2.0",

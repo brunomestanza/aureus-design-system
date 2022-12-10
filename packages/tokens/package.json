@@ -1,6 +1,6 @@
 {
-  "name": "@aureus/tokens",
-  "version": "1.0.0",
+  "name": "@ordo-aureus/tokens",
+  "version": "1.0.1",
   "description": "Ready to use design tokens for web apps.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -14,8 +14,8 @@
   "author": "Bruno Mestanza",
   "license": "MIT",
   "devDependencies": {
-    "@aureus/ts-config": "*",
-    "@aureus/eslint-config": "*",
+    "@ordo-aureus/ts-config": "*",
+    "@ordo-aureus/eslint-config": "*",
     "tsup": "^6.5.0",
     "typescript": "^4.9.3"
   }

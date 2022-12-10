@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Heading, HeadingProps } from '@aureus/react'
+import { Heading, HeadingProps } from '@ordo-aureus/react'
 
 // Funcina como global para todas as variantes
 export default {

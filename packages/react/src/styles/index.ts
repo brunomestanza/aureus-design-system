@@ -6,7 +6,7 @@ import {
   lineHeights,
   radii,
   space,
-} from '@aureus/tokens'
+} from '@ordo-aureus/tokens'
 import { createStitches, defaultThemeMap } from '@stitches/react'
 
 export const {

@@ -1,5 +1,5 @@
 // Just for make the imports simple
-// @aureus/tokens/colors => @aureus/tokens
+// @ordo-aureus/tokens/colors => @ordo-aureus/tokens
 export * from './colors'
 export * from './space'
 export * from './radii'

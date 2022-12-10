@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Text, TextProps } from '@aureus/react'
+import { Text, TextProps } from '@ordo-aureus/react'
 
 // Funcina como global para todas as variantes
 export default {

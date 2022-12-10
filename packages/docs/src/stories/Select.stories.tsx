@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { Select, SelectProps } from '@aureus/react'
+import { Select, SelectProps } from '@ordo-aureus/react'
 
 export default {
   title: 'Form/Select',

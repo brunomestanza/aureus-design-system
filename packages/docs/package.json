@@ -1,5 +1,5 @@
 {
-  "name": "@aureus/docs",
+  "name": "@ordo-aureus/docs",
   "version": "1.0.0",
   "description": "Storybook of a RPG Design System",
   "main": "index.js",
@@ -30,10 +30,10 @@
     "vite": "^3.2.4"
   },
   "dependencies": {
-    "@aureus/eslint-config": "*",
-    "@aureus/react": "*",
-    "@aureus/tokens": "*",
-    "@aureus/ts-config": "*",
+    "@ordo-aureus/eslint-config": "*",
+    "@ordo-aureus/react": "*",
+    "@ordo-aureus/tokens": "*",
+    "@ordo-aureus/ts-config": "*",
     "@storybook/addon-a11y": "^6.5.14",
     "phosphor-react": "^1.4.1",
     "polished": "^4.2.2",

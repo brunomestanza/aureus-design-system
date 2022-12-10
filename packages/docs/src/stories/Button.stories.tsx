@@ -1,6 +1,6 @@
 import type { StoryObj, Meta } from '@storybook/react'
 import { User } from 'phosphor-react'
-import { Button, ButtonProps } from '@aureus/react'
+import { Button, ButtonProps } from '@ordo-aureus/react'
 
 export default {
   title: 'Form/Button',

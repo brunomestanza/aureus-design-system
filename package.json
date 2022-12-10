@@ -1,5 +1,5 @@
 {
-  "name": "aureus",
+  "name": "ordo-aureus",
   "version": "1.0.0",
   "private": true,
   "description": "A Design System for a Horror RPG System",
@@ -8,9 +8,13 @@
   ],
   "scripts": {
     "dev": "turbo run dev --parallel",
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "changeset": "changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=!docs && changeset publish"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.25.2",
     "turbo": "^1.6.3"
   }
 }

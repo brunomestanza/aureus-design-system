@@ -1,5 +1,5 @@
 import type { StoryObj, Meta } from '@storybook/react'
-import { TextArea, TextAreaProps } from '@aureus/react'
+import { TextArea, TextAreaProps } from '@ordo-aureus/react'
 
 export default {
   title: 'Form/TextArea',

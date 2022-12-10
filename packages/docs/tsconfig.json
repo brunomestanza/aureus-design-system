@@ -1,4 +1,4 @@
 {
-  "extends": "@aureus/ts-config/react.json",
+  "extends": "@ordo-aureus/ts-config/react.json",
   "include": ["src"]
 }
