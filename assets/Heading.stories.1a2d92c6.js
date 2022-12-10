@@ -1,0 +1,2 @@
+import{H as e}from"./index.57b04e59.js";import"./index.2f32f829.js";import"./iframe.98178208.js";import"./index.8ee343f1.js";import"./jsx-runtime.e64d4343.js";const n={title:"Typography/Heading",component:e,args:{children:"Example title",size:"md"},parameters:{docs:{description:{component:'You can use the "as" param, for change the HTMl tag'}}},argTypes:{size:{options:["sm","md","lg","2xl","4xl","5xl","6xl"],control:{type:"inline-radio"}}}},s={},p=["Primary"];export{s as Primary,p as __namedExportsOrder,n as default};
+//# sourceMappingURL=Heading.stories.1a2d92c6.js.map

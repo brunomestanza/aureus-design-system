@@ -1,0 +1,2 @@
+import{S as t}from"./index.57b04e59.js";import{j as e}from"./jsx-runtime.e64d4343.js";import"./index.2f32f829.js";import"./iframe.98178208.js";import"./index.8ee343f1.js";const p={title:"Form/Select",component:t,args:{},argTypes:{},decorators:[r=>e("div",{style:{display:"flex",width:"80%"},children:r()})]},c={},l=["Primary"];export{c as Primary,l as __namedExportsOrder,p as default};
+//# sourceMappingURL=Select.stories.c903e21f.js.map
